@@ -1,10 +1,12 @@
+![preview](https://github.com/rafaelhbarreto/dtmoney/blob/master/public/preview.JPG)
+
 ## Sobre
 
 O Dt. Money é um projeto prático do Ignite da Rocketseat que tem como o objetivo fixar o aprendizado de React e outras tecnologias. O objeto é desenvolver um dashboard que contém sumário, listagem das receitas e despesas. 🔥🚀.
 
 ## Como instalar
 
-Faça o clone do projeto e em seguida, instale as dependências com npm `npm i` ou yarn `yarn` logo em seguida, rode o comando `yarn start`. O projeto estará disponível em http://localhost:3000
+Faça o clone do projeto e em seguida, instale as dependências com npm `npm i` ou yarn `yarn`
 
 ## O que foi utilizado
 
