@@ -3,13 +3,11 @@ import { Container } from "./styles";
 import EntradasIcon from '../../assets/img/income.svg';
 import SaidasIcon from '../../assets/img/outcome.svg';
 import TotalIcon from '../../assets/img/total.svg';
-import { useContext } from "react";
-import {TransactionsContext} from '../../context/TransactionsContext';
-import { transitions } from "polished";
+import { useTransactions } from "../../hooks/useTransactions";
 
 export function Summary() {
 
-  const {transactions} = useContext(TransactionsContext);
+  const {transactions} = useTransactions();
   
   const summary = transactions.reduce((acc, transaction) => {
       

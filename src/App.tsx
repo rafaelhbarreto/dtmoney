@@ -5,7 +5,7 @@ import GlobalStyles from './styles/global';
 import {createServer, Model} from 'miragejs';
 
 import {NewTransactionModal} from './components/NewTransactionModal'; 
-import { TransactionsProvider } from './context/TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 createServer({
 
